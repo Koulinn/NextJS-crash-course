@@ -1,8 +1,9 @@
 import Head from "next/head";
+import Layout from "../src/components/Layout";
 
 export default function Home() {
     return (
-        <div>
+        <Layout>
             <Head>
                 <title>Create Next App</title>
                 <meta
@@ -11,7 +12,6 @@ export default function Home() {
                 />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            Helloooo
-        </div>
+        </Layout>
     );
 }
