@@ -7,9 +7,12 @@ function Nav() {
             <Link href='/about'>
                 <a className='mr-5 hover:text-gray-900'>About</a>
             </Link>
-            <a className='mr-5 hover:text-gray-900'>Second Link</a>
-            <a className='mr-5 hover:text-gray-900'>Third Link</a>
-            <a className='mr-5 hover:text-gray-900'>Fourth Link</a>
+            <Link href='/events'>
+                <a className='mr-5 hover:text-gray-900'>Events</a>
+            </Link>
+            <Link href='/contact'>
+                <a className='mr-5 hover:text-gray-900'>Contact</a>
+            </Link>
         </nav>
     );
 }
